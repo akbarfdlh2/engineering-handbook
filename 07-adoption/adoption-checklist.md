@@ -10,6 +10,7 @@ Isi checklist ini di repo proyek. Tautkan bukti internal yang sesuai izin akses;
 - [ ] Stack, diagram system/data flow, trust boundary, environment, dan third-party dependencies terdokumentasi.
 - [ ] Source tree mengikuti [struktur repository](../01-engineering/repository-structure.md) atau pengecualiannya dicatat dengan alasan.
 - [ ] Hukum, kontrak, residency, retention, dan kewajiban customer yang relevan dipetakan oleh owner yang tepat.
+- [ ] [Risk register](../00-governance/risk-register-template.md) proyek dibuat dan risiko di atas risk appetite memiliki rencana perlakuan.
 
 ## Product dan design
 
@@ -24,6 +25,8 @@ Isi checklist ini di repo proyek. Tautkan bukti internal yang sesuai izin akses;
 - [ ] Otorisasi server-side, tenant isolation, secrets, key management, logging redaction, dan data deletion diperiksa.
 - [ ] Threat model dibuat sesuai tier dan perubahan; risiko residual memiliki penerima yang berwenang.
 - [ ] Dependency/vendor review, secret/SCA/SAST scanning, dan vulnerability SLA berjalan.
+- [ ] [Vendor due diligence questionnaire](../02-security/vendor-due-diligence-questionnaire.md) selesai untuk vendor Tier 1/2; [jadwal retensi data](../02-security/data-retention-schedule-template.md) dan [matriks segregation of duties](../02-security/segregation-of-duties-matrix-template.md) terisi.
+- [ ] Jika proyek memakai model statistik/ML/AI untuk keputusan bisnis (credit, fraud, pricing, atau dampak pelanggan lain), [model risk management](../00-governance/model-risk-management-template.md) diisi dan divalidasi sesuai tier.
 - [ ] Public repo hanya berisi data Public dan tidak memiliki secret, environment files, customer content, atau internal incident detail.
 
 ## Engineering dan release
@@ -40,6 +43,7 @@ Isi checklist ini di repo proyek. Tautkan bukti internal yang sesuai izin akses;
 - [ ] RTO/RPO disetujui pemilik bisnis; backup terenkripsi dan restore diuji terhadap target.
 - [ ] Incident response, customer/privacy notification, credential revocation, dan post-incident review path diketahui owner.
 - [ ] Tier 1 telah menjalani incident tabletop serta restore exercise sesuai jadwal.
+- [ ] Tier 1 memiliki [business continuity plan](../06-operations/business-continuity-plan-template.md) dengan BIA dan bukti tabletop exercise.
 
 ## Gap dan approval
 

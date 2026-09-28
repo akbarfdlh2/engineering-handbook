@@ -13,7 +13,7 @@ Gunakan kelas paling tinggi yang sesuai dengan konten dan dampaknya. Proyek bole
 
 Credential dan secret tidak boleh disimpan sebagai dokumentasi biasa meskipun diberi label Restricted; gunakan secret manager.
 
-- Setiap data MUST memiliki owner, tujuan, klasifikasi, aturan akses, retensi, dan prosedur penghapusan.
+- Setiap data MUST memiliki owner, tujuan, klasifikasi, aturan akses, retensi, dan prosedur penghapusan. Catat periode dan metode penghapusan per kategori data memakai [jadwal retensi data](data-retention-schedule-template.md).
 - Kumpulkan data pribadi seminimal mungkin dan hanya untuk tujuan yang dijelaskan; hindari mengumpulkan data sensitif bila fitur dapat berjalan tanpanya.
 - Data sensitif MUST dienkripsi saat transit dan tersimpan menggunakan mekanisme yang dikelola baik. Kunci disimpan terpisah dari data, diberi akses minimum, dan memiliki rotasi/revocation plan.
 - Authorization MUST ditegakkan di server untuk setiap record/resource, termasuk isolasi tenant; jangan percaya ID resource atau role dari client.

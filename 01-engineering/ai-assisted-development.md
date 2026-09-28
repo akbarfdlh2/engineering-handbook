@@ -10,3 +10,5 @@
 - Do not claim tests/builds passed unless they were run and observed in the current work context.
 
 Project owners are responsible for checking the AI tool's data handling, access scope, and organizational approval before use.
+
+This document governs coding agents that write code. If a model (statistical/ML/generative) is itself part of a product decision — credit, fraud, pricing, or another customer-affecting outcome — use [model risk management](../00-governance/model-risk-management-template.md) instead.

@@ -4,6 +4,8 @@ Lihat [rujukan dan assurance](references-and-assurance.md) untuk sumber primer, 
 
 Gunakan [control register](control-register.md) sebagai indeks traceability ke dokumen kanonis; catat bukti dan status pada repo masing-masing proyek.
 
+Template governance tambahan: [risk register](risk-register-template.md), [control mapping ke ISO 27001/SOC 2](control-mapping-template.md), dan [model risk management](model-risk-management-template.md) untuk proyek yang memakai model statistik/ML/AI dalam keputusan bisnis.
+
 ## Cara menggunakan
 
 1. Tentukan klasifikasi data dan dampak layanan untuk tiap proyek.
