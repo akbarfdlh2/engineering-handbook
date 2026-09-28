@@ -2,6 +2,8 @@
 
 ## Struktur dokumen proyek yang disarankan
 
+Untuk source tree, gunakan [panduan struktur repository](../01-engineering/repository-structure.md). Contoh di bawah hanya memetakan dokumentasi proyek.
+
 ```text
 AGENTS.md
 docs/
@@ -29,3 +31,5 @@ Tag atau mention repo publik dapat membantu menemukan sumber, tetapi tidak menja
 Template ada di [project AGENTS.md](agents-template.md). Setiap repo mengadopsi kontrol secara bertahap; jangan mengklaim compliance hanya karena menautkan handbook.
 
 Gunakan [adoption dan production readiness checklist](adoption-checklist.md) untuk merekam keputusan, gap, evidence, dan approval.
+
+Untuk menerapkan standar di workflow harian, gunakan [template pull request](pull-request-template.md) dan [checklist code review](code-review-checklist.md). Stack khusus didokumentasikan memakai [stack guide template](../01-engineering/stack-guide-template.md).

@@ -1,6 +1,8 @@
 # Engineering
 
 - [Coding standards](coding-standards.md)
+- [Struktur repository](repository-structure.md)
+- [Template panduan stack](stack-guide-template.md)
 - [Git dan review](git-and-code-review.md)
 - [Testing dan quality gates](testing-and-quality-gates.md)
 - [Data dan schema migrations](data-and-schema-migrations.md)

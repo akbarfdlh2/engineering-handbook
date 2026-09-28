@@ -8,6 +8,7 @@ Isi checklist ini di repo proyek. Tautkan bukti internal yang sesuai izin akses;
 - [ ] Data class dan Tier 1/2/3 ditetapkan dengan alasan.
 - [ ] Versi/tag handbook dicatat dan akses ke versi tersebut berfungsi.
 - [ ] Stack, diagram system/data flow, trust boundary, environment, dan third-party dependencies terdokumentasi.
+- [ ] Source tree mengikuti [struktur repository](../01-engineering/repository-structure.md) atau pengecualiannya dicatat dengan alasan.
 - [ ] Hukum, kontrak, residency, retention, dan kewajiban customer yang relevan dipetakan oleh owner yang tepat.
 
 ## Product dan design
