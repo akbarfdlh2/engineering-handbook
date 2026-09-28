@@ -13,3 +13,5 @@
 ## Emergency change
 
 Perubahan darurat boleh memakai jalur dipercepat jika untuk mengurangi dampak aktif. Catat alasan, lingkup, pemeriksaan minimum yang dilakukan, pemilik, dan lakukan review retrospektif secepatnya.
+
+Untuk menerapkan aturan di atas sehari-hari, gunakan [template pull request](../07-adoption/pull-request-template.md) dan [checklist code review](../07-adoption/code-review-checklist.md).

@@ -9,3 +9,4 @@ Catat perubahan baseline dan beri tag rilis handbook agar repo proyek dapat mem-
 - Menambahkan maintainer attribution dan rujukan primer versi yang ditinjau.
 - Menambahkan source repository structure dan memperluas coding standards untuk error handling, runtime boundaries, dan observability.
 - Menambahkan stack-guide template, PR template, dan code-review checklist.
+- Menautkan checklist code review dan template pull request dari "Git dan code review" serta control register agar mudah ditemukan.

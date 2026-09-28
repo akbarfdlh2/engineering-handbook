@@ -34,3 +34,5 @@
 - [ ] Tidak memasukkan secret, production data, atau file generated yang tidak diperlukan.
 - [ ] Pengecualian standar dicatat beserta owner, mitigasi, approval, dan expiry.
 - [ ] Menyebut semua pemeriksaan yang benar-benar dijalankan dan yang belum.
+
+Reviewer: gunakan [checklist code review](code-review-checklist.md).

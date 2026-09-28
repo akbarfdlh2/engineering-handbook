@@ -6,7 +6,7 @@ Register ini memberi ID stabil dan lokasi persyaratan kanonis untuk perencanaan/
 | --- | --- | --- | --- |
 | GOV-01 | Owner dan tier | [Peran minimum](README.md#peran-minimum), [profil organisasi](organization-profile-template.md) | Owner, klasifikasi data, tier, approval |
 | GOV-02 | Pengecualian | [Pengecualian](README.md#pengecualian), [template](exception-template.md) | Risk acceptance, mitigasi, due date, approval |
-| ENG-01 | Review perubahan | [Git dan code review](../01-engineering/git-and-code-review.md) | Branch rules, CODEOWNERS, PR approvals |
+| ENG-01 | Review perubahan | [Git dan code review](../01-engineering/git-and-code-review.md), [checklist code review](../07-adoption/code-review-checklist.md) | Branch rules, CODEOWNERS, PR approvals |
 | ENG-02 | Quality gates | [Testing dan quality gates](../01-engineering/testing-and-quality-gates.md) | CI policy, hasil pipeline, security scan |
 | ENG-03 | Release traceability | [Release management](../06-operations/environments-and-release-management.md) | Commit/build/deploy record, rollback plan |
 | IAM-01 | MFA untuk manusia | [Kebijakan login](../02-security/identity-and-authentication.md#kebijakan-login) | IdP/app enforcement dan enrollment report |
