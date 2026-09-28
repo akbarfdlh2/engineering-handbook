@@ -1,0 +1,49 @@
+# Adoption dan Production Readiness Checklist
+
+Isi checklist ini di repo proyek. Tautkan bukti internal yang sesuai izin akses; jangan menaruh secret, data pribadi, laporan pentest sensitif, atau rincian incident pada repo publik.
+
+## Ownership dan scope
+
+- [ ] Product/business, engineering, security, data/privacy, dan design/accessibility owner ditetapkan sesuai produk.
+- [ ] Data class dan Tier 1/2/3 ditetapkan dengan alasan.
+- [ ] Versi/tag handbook dicatat dan akses ke versi tersebut berfungsi.
+- [ ] Stack, diagram system/data flow, trust boundary, environment, dan third-party dependencies terdokumentasi.
+- [ ] Hukum, kontrak, residency, retention, dan kewajiban customer yang relevan dipetakan oleh owner yang tepat.
+
+## Product dan design
+
+- [ ] PRD/feature specification menjelaskan scope, acceptance criteria, error/recovery states, dan metrik.
+- [ ] Design system produk ditautkan; WCAG 2.2 AA target dan hasil accessibility review dicatat untuk UI.
+- [ ] Login/MFA, empty/loading/error, keyboard, mobile, localization, dan destructive-action flows ditinjau bila berlaku.
+
+## Security dan data
+
+- [ ] MFA aktif bagi seluruh akun manusia; admin/production/Restricted access memakai phishing-resistant MFA.
+- [ ] Enrollment, lost-device recovery, authenticator changes, session revocation, break-glass, dan access review diuji.
+- [ ] Otorisasi server-side, tenant isolation, secrets, key management, logging redaction, dan data deletion diperiksa.
+- [ ] Threat model dibuat sesuai tier dan perubahan; risiko residual memiliki penerima yang berwenang.
+- [ ] Dependency/vendor review, secret/SCA/SAST scanning, dan vulnerability SLA berjalan.
+- [ ] Public repo hanya berisi data Public dan tidak memiliki secret, environment files, customer content, atau internal incident detail.
+
+## Engineering dan release
+
+- [ ] Main branch dilindungi; direct push dan force-push dinonaktifkan; required reviews dan CI checks aktif.
+- [ ] Tes yang relevan, lint/static analysis, build, secret scan, dependency scan, dan security tests lulus.
+- [ ] Migration, compatibility, rollback/recovery, feature flags, dan deployment owner ditetapkan.
+- [ ] Release dapat ditelusuri ke reviewed commit/build; Tier 1 memiliki SBOM/provenance dan independent security assessment.
+- [ ] Tidak ada temuan Critical yang belum ditutup. Temuan High ditutup atau memiliki pengecualian yang sah dan berjangka.
+
+## Operations
+
+- [ ] SLI/SLO, alert threshold, on-call/escalation, incident commander, dan runbook tersedia.
+- [ ] RTO/RPO disetujui pemilik bisnis; backup terenkripsi dan restore diuji terhadap target.
+- [ ] Incident response, customer/privacy notification, credential revocation, dan post-incident review path diketahui owner.
+- [ ] Tier 1 telah menjalani incident tabletop serta restore exercise sesuai jadwal.
+
+## Gap dan approval
+
+| Gap/control | Risiko | Mitigasi sementara | Owner | Due date | Exception approval/evidence |
+| --- | --- | --- | --- | --- | --- |
+| [gap] | [dampak] | [mitigasi] | [owner] | [tanggal] | [tautan] |
+
+Production release tidak boleh melewati kontrol MUST yang belum dipenuhi tanpa pengecualian berjangka yang disetujui penerima risiko yang tepat; kewajiban hukum/kontrak dan containment insiden tidak dapat dikecualikan.
