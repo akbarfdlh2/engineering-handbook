@@ -9,6 +9,9 @@
 - Final change reports MUST state files/behavior changed, verification actually performed, results, and material limits.
 - Do not claim tests/builds passed unless they were run and observed in the current work context.
 
+- Agent actions are bounded by [guardrails](guardrails.md), and high-impact decisions go through the [JEV decision layer](decision-layer-jev.md); an agent MUST NOT be the sole approver of its own changes.
+- Vulnerability, bug, and debt findings produced by an agent follow the [AI findings rules](defect-and-debt-detection.md#temuan-oleh-ai).
+
 Project owners are responsible for checking the AI tool's data handling, access scope, and organizational approval before use.
 
 This document governs coding agents that write code. If a model (statistical/ML/generative) is itself part of a product decision — credit, fraud, pricing, or another customer-affecting outcome — use [model risk management](../00-governance/model-risk-management-template.md) instead.

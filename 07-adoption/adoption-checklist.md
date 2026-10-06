@@ -16,6 +16,7 @@ Isi checklist ini di repo proyek. Tautkan bukti internal yang sesuai izin akses;
 
 - [ ] PRD/feature specification menjelaskan scope, acceptance criteria, error/recovery states, dan metrik.
 - [ ] Design system produk ditautkan; WCAG 2.2 AA target dan hasil accessibility review dicatat untuk UI.
+- [ ] PRD lolos [readiness checklist](../03-product/prd-readiness-checklist.md) dan rekomendasi arsitektur dicatat dengan [panduan pemilihan arsitektur](../04-architecture/architecture-selection-guide.md).
 - [ ] Login/MFA, empty/loading/error, keyboard, mobile, localization, dan destructive-action flows ditinjau bila berlaku.
 
 ## Security dan data
@@ -34,6 +35,9 @@ Isi checklist ini di repo proyek. Tautkan bukti internal yang sesuai izin akses;
 - [ ] Main branch dilindungi; direct push dan force-push dinonaktifkan; required reviews dan CI checks aktif.
 - [ ] Tes yang relevan, lint/static analysis, build, secret scan, dependency scan, dan security tests lulus.
 - [ ] Migration, compatibility, rollback/recovery, feature flags, dan deployment owner ditetapkan.
+- [ ] Fase dan gate [SDLC](../01-engineering/sdlc.md) dipetakan; keputusan rilis dan merge berisiko memakai [JEV](../01-engineering/decision-layer-jev.md).
+- [ ] [Guardrails](../01-engineering/guardrails.md) baseline aktif (repo, CI, agent) dan teruji dengan tes negatif.
+- [ ] Deteksi [vulnerability/bug/debt](../01-engineering/defect-and-debt-detection.md) berjalan dan [debt register](../00-governance/technical-debt-register-template.md) dipelihara.
 - [ ] Release dapat ditelusuri ke reviewed commit/build; Tier 1 memiliki SBOM/provenance dan independent security assessment.
 - [ ] Tidak ada temuan Critical yang belum ditutup. Temuan High ditutup atau memiliki pengecualian yang sah dan berjangka.
 

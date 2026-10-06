@@ -7,10 +7,15 @@ Register ini memberi ID stabil dan lokasi persyaratan kanonis untuk perencanaan/
 | GOV-01 | Owner dan tier | [Peran minimum](README.md#peran-minimum), [profil organisasi](organization-profile-template.md) | Owner, klasifikasi data, tier, approval |
 | GOV-02 | Pengecualian | [Pengecualian](README.md#pengecualian), [template](exception-template.md) | Risk acceptance, mitigasi, due date, approval |
 | GOV-03 | Risk register | [Risk register](risk-register-template.md) | Risk log, treatment plan, acceptance approval |
+| GOV-04 | Technical debt register | [Debt register](technical-debt-register-template.md) | Register debt, keputusan, tanggal tinjau |
 | ENG-01 | Review perubahan | [Git dan code review](../01-engineering/git-and-code-review.md), [checklist code review](../07-adoption/code-review-checklist.md) | Branch rules, CODEOWNERS, PR approvals |
 | ENG-02 | Quality gates | [Testing dan quality gates](../01-engineering/testing-and-quality-gates.md) | CI policy, hasil pipeline, security scan |
 | ENG-03 | Release traceability | [Release management](../06-operations/environments-and-release-management.md) | Commit/build/deploy record, rollback plan |
 | ENG-04 | Regulated change management | [Regulated change management](../06-operations/regulated-change-management.md) | CAB approval, freeze window log, post-implementation review |
+| ENG-05 | SDLC gates dan keterlacakan | [SDLC](../01-engineering/sdlc.md) | Bukti gate per fase, rantai kebutuhan–tes–rilis |
+| ENG-06 | Decision layer JEV | [Decision layer JEV](../01-engineering/decision-layer-jev.md) | Catatan keputusan, kriteria, log verifier, tinjauan override |
+| ENG-07 | Guardrails | [Guardrails](../01-engineering/guardrails.md) | Spesifikasi guardrail, tes negatif, log blokir/bypass |
+| ENG-08 | Deteksi defect dan debt | [Deteksi vulnerability, bug, dan debt](../01-engineering/defect-and-debt-detection.md) | Hasil scan, catatan temuan bertingkat bukti, triase |
 | IAM-01 | MFA untuk manusia | [Kebijakan login](../02-security/identity-and-authentication.md#kebijakan-login) | IdP/app enforcement dan enrollment report |
 | IAM-02 | Phishing-resistant untuk privileged | [Kebijakan login](../02-security/identity-and-authentication.md#kebijakan-login) | Authenticator policy, exception register |
 | IAM-03 | Enrollment/recovery/sesi | [Pemulihan akun](../02-security/identity-and-authentication.md#enrollment-dan-pemulihan-akun), [sesi](../02-security/identity-and-authentication.md#sesi-dan-proteksi-login) | Test evidence, recovery runbook, revocation proof |
@@ -32,6 +37,8 @@ Register ini memberi ID stabil dan lokasi persyaratan kanonis untuk perencanaan/
 | OPS-02 | Backup dan restore | [Reliability/recovery](../06-operations/reliability-backup-and-recovery.md) | Backup config, restore results, integrity checks |
 | OPS-03 | Business continuity | [Business continuity plan](../06-operations/business-continuity-plan-template.md) | BIA, RTO/RPO organisasi, tabletop/test evidence |
 | PROD-01 | Kebutuhan produk | [PRD template](../03-product/prd-template.md) | Approved PRD and acceptance criteria |
+| PROD-02 | PRD readiness | [Readiness checklist](../03-product/prd-readiness-checklist.md) | Checklist terisi, gap dan persetujuan |
+| ARC-01 | Pemilihan arsitektur | [Panduan pemilihan arsitektur](../04-architecture/architecture-selection-guide.md), [ADR](../04-architecture/adr-template.md) | Architecture Recommendation Record, ADR, fitness function |
 | DES-01 | Aksesibilitas UI | [Design principles](../05-design-system/design-principles.md) | WCAG review, remediation, exception if any |
 | AI-01 | Model risk management | [Model risk management](model-risk-management-template.md) | Model inventory, validation report, approval record |
 

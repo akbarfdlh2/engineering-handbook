@@ -30,3 +30,5 @@
 ## Tindak lanjut
 
 - [ ] [aksi, owner, tanggal]
+
+Untuk memilih arsitektur yang dicatat di ADR ini, gunakan [panduan pemilihan dan rekomendasi arsitektur](architecture-selection-guide.md); keputusan berdampak tinggi dinilai melalui [JEV](../01-engineering/decision-layer-jev.md).

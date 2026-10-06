@@ -19,6 +19,12 @@ Reviewed **28 September 2026**. Recheck current editions at least annually and b
 - [NIST AI Risk Management Framework 1.0](https://www.nist.gov/itl/ai-risk-management-framework) — voluntary framework for trustworthy AI design, development, and use.
 - [SR 26-2: Revised Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm) — issued jointly by the Federal Reserve, OCC, and FDIC on 17 April 2026; supersedes SR 11-7 (2011) and SR 21-8 (2021). Primarily written for banking organizations, used here as a model-governance rigor benchmark.
 - [NIST SP 800-161 Rev. 1: Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations](https://csrc.nist.gov/pubs/sp/800/161/r1/upd1/final) — vendor/supply-chain risk assessment practices.
+- [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/llm-top-10/) — catalog of LLM application risks; v2.0 published 18 November 2024. Used as a threat catalog for guardrails, not as compliance evidence.
+- [NIST SP 800-218A: SSDF Community Profile for Generative AI and Dual-Use Foundation Models](https://csrc.nist.gov/news/2024/nist-publishes-sp-800218a) — published July 2024; extends SP 800-218 for AI model development.
+- [ISO/IEC 25010:2023: Product quality model](https://www.iso.org/standard/78176.html) — published November 2023; quality-attribute vocabulary for architecture evaluation.
+- [NIST SP 800-160 Vol. 1 Rev. 1: Engineering Trustworthy Secure Systems](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final) — published November 2022; systems security engineering principles.
+
+JEV (Judge–Evaluate–Verify), the SDLC gate model, and the debt/finding templates are handbook-defined constructs, not external standards.
 
 ## What this does not establish
 

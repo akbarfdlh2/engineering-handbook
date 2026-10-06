@@ -12,6 +12,7 @@
 - Gunakan library dan primitive kriptografi standar; jangan merancang algoritma kripto, token, atau protokol autentikasi sendiri.
 - Pengujian keamanan MUST tidak memakai data produksi kecuali ada izin terpisah dan prosedur khusus.
 - Produk Tier 1 yang dapat diakses dari internet MUST mendapat security assessment independen sebelum production, setelah perubahan besar pada trust boundary/auth/data, dan sekurangnya tahunan. Scope dan metode harus sesuai risiko, bukan hanya pemindaian otomatis.
+- Deteksi, triase bertingkat bukti, dan pencatatan temuan mengikuti [deteksi vulnerability, bug, dan technical debt](../01-engineering/defect-and-debt-detection.md); fase dan gate keseluruhan ada di [SDLC](../01-engineering/sdlc.md).
 
 ## Rujukan
 
